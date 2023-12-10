@@ -1,11 +1,16 @@
 package com.example.controller;
 
-public class Contacts {
+public class Contact {
     String name;
     String phone;
     String email;
     String address;
-    public Contacts(String name, String phone, String email, String address) {
+
+    public Contact(){
+
+    }
+
+    public Contact(String name, String phone, String email, String address) {
         this.name = name;
         this.phone = phone;
         this.email = email;
